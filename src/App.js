@@ -1,7 +1,8 @@
 import './App.css';
+import './custom.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar"
-// import Header from "./components/Header"
+import Header from "./component/Header"
 import Home from "./pages/home"
 import About from "./pages/about"
 import Contact from "./pages/contact"
@@ -12,7 +13,7 @@ import Policies from "./pages/policies"
 function App() {
   return (
    <>
-    {/* <Header /> */}
+    <Header />
     <Router>
       <Navbar />
       <Routes>
